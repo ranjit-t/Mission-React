@@ -1,0 +1,11 @@
+.app {
+  background-color: aqua;
+  font-size: 2rem;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  text-transform: capitalize;
+}
+.app {
+  background-color: rgb(84, 226, 167);
+}
