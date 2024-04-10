@@ -46,6 +46,7 @@ button {
   font-weight: bold;
   letter-spacing: 1px;
   width: 100%;
+  cursor: pointer;
 }
 img {
   width: 30px;
@@ -63,6 +64,7 @@ a {
   text-decoration: none;
   color: blue;
   font-weight: bolder;
+  cursor: pointer;
 }
 .footer {
   display: flex;
@@ -94,4 +96,5 @@ a {
 }
 .setPassword {
   color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
