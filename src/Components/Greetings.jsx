@@ -1,28 +1,20 @@
-import React, { useState } from "react";
+import React from "react";
 
-export default function Greetings({ count }) {
+export default function Greetings() {
   const [greetings, setGreetings] = useState("");
   return (
     <>
       <p>Greeting is {greetings}</p>
       <button
         onClick={() => {
-          if (count === 10) {
-            setGreetings("you exceeded maximum count");
-          } else {
-            setGreetings("Namaste !");
-          }
+          setGreetings("Namaste !");
         }}
       >
         Indian
       </button>
       <button
         onClick={() => {
-          if (count === 10) {
-            setGreetings("you exceeded maximum count");
-          } else {
-            setGreetings("Bonjour !");
-          }
+          setGreetings("Bonjour !");
         }}
       >
         French

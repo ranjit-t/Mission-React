@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Products from "./Components/Products";
 import ProductCard from "./Components/ProductCard";
+import Counter from "./Components/Counter";
 
 export default function App() {
   const products = [
@@ -23,6 +24,13 @@ export default function App() {
   return (
     <div className="container">
       <h1>React Props</h1>
+
+      <h1>Counter 1</h1>
+      <Counter />
+
+      <h1>Counter 2</h1>
+      <Counter />
+
       <Products products={products} />
       <Products products={products2} />
       <ProductCard product={singleProduct} />
