@@ -3,6 +3,7 @@ import "./App.css";
 import Products from "./Components/Products";
 import ProductCard from "./Components/ProductCard";
 import Counter from "./Components/Counter";
+import Greetings from "./Components/Greetings";
 
 export default function App() {
   const products = [
@@ -23,7 +24,8 @@ export default function App() {
 
   return (
     <div className="container">
-      <h1>React Props</h1>
+      <h1 className="blue-header">React Props</h1>
+      <Greetings />
 
       <h1>Counter 1</h1>
       <Counter />
